@@ -56,7 +56,7 @@ class App extends React.Component {
                 <div className="title-container">
                   <Titles />
                 </div>
-                <div className="form-container">
+                {/* <div className="form-container">
                   <h4>Location</h4>
                   <Form getWeather={this.getWeather} />
                   <Weather 
@@ -68,7 +68,7 @@ class App extends React.Component {
                     sea_level = {this.state.sea_level}
                     error={this.state.error}
                   />
-                </div>
+                </div> */}
             </div>
           </div>
         </div>
